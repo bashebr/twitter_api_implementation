@@ -9,6 +9,5 @@ if __name__ == "__main__":
     elif sys.argv[1] == "download_tweets" and len(sys.argv) == 3:
         get_all_tweets(sys.argv[1])
     else:
-        print(len(sys.argv))
         print("Invalid arguments")
         print("Usage: python main.py [<mass_follow> or <download_tweets>] <screen_name>")
