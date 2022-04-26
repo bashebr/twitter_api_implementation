@@ -1,4 +1,4 @@
-# download-tweets
+# Twitter api implementation
 Download tweets of any user in CSV format
 
 ## Requirements
